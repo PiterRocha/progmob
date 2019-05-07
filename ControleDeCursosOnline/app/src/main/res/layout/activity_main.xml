@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/light_blue">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnCadastraCurso"
+                android:layout_width="179dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="1dp"
+                android:background="@color/black"
+                android:onClick="cadastrarCurso"
+                android:text="@string/cadastro_curso"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnCadastraAluno"
+                android:layout_width="179dp"
+                android:layout_height="150dp"
+                android:background="@color/black"
+                android:onClick="cadastrarAluno"
+                android:text="@string/cadastro_aluno"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnListaCurso"
+                android:layout_width="179dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="1dp"
+                android:background="@color/black"
+                android:onClick="listarCursos"
+                android:text="@string/lista_curso"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnListaAluno"
+                android:layout_width="179dp"
+                android:layout_height="150dp"
+                android:background="@color/black"
+                android:onClick="listarAlunos"
+                android:text="@string/lista_aluno"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnSobre"
+                android:layout_width="179dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="1dp"
+                android:background="@color/black"
+                android:onClick="sobre"
+                android:text="@string/sobre"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnSair"
+                android:layout_width="179dp"
+                android:layout_height="150dp"
+                android:background="@color/black"
+                android:onClick="sair"
+                android:text="@string/sair"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

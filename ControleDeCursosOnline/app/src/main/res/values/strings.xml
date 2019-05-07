@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Controle de Cursos Online</string>
+    <string name="cadastro_curso">CADASTRAR CURSO</string>
+    <string name="cadastro_aluno">REGISTRAR ALUNO</string>
+    <string name="lista_curso">LISTAR CURSOS</string>
+    <string name="lista_aluno">LISTAR ALUNOS</string>
+    <string name="sobre">SOBRE</string>
+    <string name="sair">SAIR</string>
+    <string name="nome_curso">Insira o nome do curso</string>
+    <string name="qtde_horas">Horas</string>
+    <string name="nome_aluno">Insira o nome do aluno</string>
+    <string name="email_aluno">Insira o email do aluno</string>
+    <string name="telefone_aluno">Insira o telefone do aluno</string>
+    <string name="cadastra">CADASTRAR</string>
+    <string name="alunos">Alunos cadastrados:</string>
+    <string name="cursos">Cursos cadastrados:</string>
+</resources>
